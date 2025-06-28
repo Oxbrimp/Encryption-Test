@@ -138,4 +138,4 @@ if __name__ == "__main__":
         assert pt_bits == bits, (
             f"✗ STREAM-SPN fail on '{bits[:16]}…' → got '{pt_bits[:16]}…'"
         )
-    print("✅ encrypt_stream/decrypt_stream round-trip OK")
+    print("encrypt_stream/decrypt_stream round-trip OK - hopefully")
